@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Luis;
+    src: url(./american_captain/PersonalUseEULA.txt);
+}
+
+@font-face {
+    font-family: Felipe;
+    src: url(./typewriter_condensed/typewcond_bold.otf);
+}
+
+h1{
+    color: black;
+    text-align: center;
+    /* text-decoration: underline; */
+    background: url();
+    background-size: cover;
+    -webkit-background-clip: text;
+    font-family: "Bungee Tint", sans-serif;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;background-color: #f1f1f1;
+}
+
+p.intro{
+    font-size: 20px;
+    color: #6b6b6b;
+    font-family: Felipe;
+}
+
+p{
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+header{
+    /* background-color: blue; */
+    color: hsl(0, 0%, 100%);
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/17/02/25/digitization-1599552_640.jpg);
+    background-size: cover;
+
+}
+
+/* header h1{
+    margin: 0;
+} */
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 80px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: solid;
+}
+
+nav ul li a:hover{
+    color: #ff4500;
+}
+
+main{
+    padding: 60px;
+    width: 70%;
+    margin: auto;
+}
+
+h2{
+    color: #000000;
+    text-decoration: underline;
+    margin-top: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table{
+    width: calc(100% - 25px);
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table, th, td{
+    border: 1px solid #070707;
+    font-size: 22px;
+    padding: 9px;
+    /* text-align: left; */
+    font-family: Luis;
+}
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+h2.galeria{
+    text-align: center;
+    font-size: 30px;
+}
+
+img{
+    width: 190px;
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2rem rgb(243, 50, 50);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: auto;
+    
+}
+
+form label{
+    margin-top: 15px;
+}
+
+h2.contato{
+    text-align: center;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #02c902;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover{
+    color: #004200;
+}
+
+footer{
+    /* background-color: #272727; */
+    color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/17/02/25/digitization-1599552_640.jpg);
+    background-size: cover;
+}
+
+
+
+
